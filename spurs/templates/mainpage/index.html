@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %} Главная {% endblock %}
+{% block content %}
+    <div class="container py-4">
+        <header class="pb-3 mb-4 border-bottom">
+            <a href="" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+                <img src="{% static 'img/omstu.jpg' %}" alt="" style="width: 50px">
+                <img src="{% static 'img/sibadi.jpg' %}" alt="" style="width: 50px">
+                <span class="px-5 fs-4">Главная</span>
+            </a>
+        </header>
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Приложение для расчёта элементов конструкции</h1>
+            </div>
+        </div>
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-bg-dark rounded-3">
+              <h2>Введите данные для расчётов</h2>
+              <form action="" method="post">
+                {% csrf_token %}
+                <div class="row">
+                  <div class="col-md-6">
+                    {% for field in fields_first_col %}
+                    <div class="mb-3">
+                      {{ field.errors }}
+                      {{ field.label_tag }} {{ field }}
+                    </div>
+                    {% endfor %}
+                  </div>
+                  <div class="col-md-6">
+                    {% for field in fields_second_col %}
+                    <div class="mb-3">
+                      {{ field.errors }}
+                      {{ field.label_tag }} {{ field }}
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+                {{ calculate_change_form.as_p }}
+                <button type="submit" class="btn text-bg-dark">Провести расчёты</button>
+              </form>
+              <a class="btn text-bg-dark">Скачать документацию</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-5 bg-body-tertiary rounded-3">
+              <h2>Схема</h2>
+              <img src="{% static 'img/schema.png' %}" alt="" class="w-100">
+            </div>
+          </div>
+        </div>
+    </div>
+{% endblock %}
