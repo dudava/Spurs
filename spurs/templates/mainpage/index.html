@@ -10,9 +10,9 @@
                 <span class="px-5 fs-4">Главная</span>
             </a>
         </header>
-        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Приложение для расчёта элементов конструкции</h1>
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3 col-md-9">
+            <div class="container-fluid py-5 d-flex justify-content-center">
+                <h1 class="display-5 fw-bold px-5">Приложение для расчёта закладных шпор</h1>
             </div>
         </div>
         <div class="row align-items-md-stretch">
@@ -39,13 +39,15 @@
                     {% endfor %}
                   </div>
                 </div>
+                
                 {{ calculate_change_form.as_p }}
+                
                 <button type="submit" class="btn text-bg-dark">Провести расчёты</button>
               </form>
               <a class="btn text-bg-dark">Скачать документацию</a>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="p-5 bg-body-tertiary rounded-3">
               <h2>Схема</h2>
               <img src="{% static 'img/schema.png' %}" alt="" class="w-100">

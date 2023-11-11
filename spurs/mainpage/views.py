@@ -10,7 +10,10 @@ def index(request):
     if calculate_form.is_valid() and calculate_change_form.is_valid():
         calculate_data = calculate_form.cleaned_data
         calculate_change_data = calculate_change_form.cleaned_data
-        print(calculate_change_data, calculate_data)
+        print(calculate_data)
+        print(calculate_change_data)
+        post_form = {**calculate_data, **calculate_change_data}
+        print(post_form)
     
     calculate_form_fields = calculate_form.visible_fields()
     context = {
