@@ -1,5 +1,4 @@
-﻿using Microsoft.Office.Interop.Word;
-using System;
+﻿using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +10,7 @@ namespace CalculationsOfSpurs
 {
     public class Spur
     {
-        int[] columnsize = new int[2];
+        double[] columnsize = new double[2];
 
         double[] variables = new double[18]; //variables that gets while procceding calculation
 
@@ -19,7 +18,7 @@ namespace CalculationsOfSpurs
 
         bool[] changerequirements = new bool[2];
 
-        string savepath = Environment.CurrentDirectory + "\\calculation_note.doc";
+        string savepath = @$"{Environment.CurrentDirectory}\\calculation_note.doc";
 
         public Spur(Request request)
         {
@@ -30,6 +29,8 @@ namespace CalculationsOfSpurs
             changerequirements = request.changerequirements;
 
             Calculation calculation = new Calculation(concretetype, ibeamtype, variables, changerequirements);
+            ibeamtype = calculation.Getibeamtype();
+            variables = calculation.GetDataVariables();
             OutputWordDocument outputWordDocument = new OutputWordDocument(savepath, ibeamtype, columnsize, variables);
         }
 

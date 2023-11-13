@@ -1,16 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "CGlK5Ww/UbxchxsoZbCDiFChEzNqil/36PkCCEl+mhR8WY7y2AlHkw0X4hwrt3VuVXptf59/5F6rKAz6x4oBwA==",
+  "dgSpecHash": "DASsLrXdY5XHMf/ngtnZQZUvLLPGHUMnivLbjs6JILJDk1W37UfbMO5GVA61AsG8hGAx5005NU0+rytFO7BCLQ==",
   "success": true,
   "projectFilePath": "D:\\ProgrammingPractice\\Practice\\Vitali\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\miipl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\miipl\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1004\\microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\miipl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\syncfusion.compression.net.core\\23.1.44\\syncfusion.compression.net.core.23.1.44.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\syncfusion.docio.net.core\\23.1.44\\syncfusion.docio.net.core.23.1.44.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\syncfusion.licensing\\23.1.44\\syncfusion.licensing.23.1.44.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\syncfusion.officechart.net.core\\23.1.44\\syncfusion.officechart.net.core.23.1.44.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
+    "C:\\Users\\miipl\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

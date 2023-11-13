@@ -45,13 +45,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Office.Interop.Word": {
-              "target": "Package",
-              "version": "[15.0.4797.1004, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
+            },
+            "Syncfusion.DocIO.Net.Core": {
+              "target": "Package",
+              "version": "[23.1.44, )"
+            },
+            "System.Runtime.InteropServices": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
